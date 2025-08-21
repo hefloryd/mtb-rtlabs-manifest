@@ -51,4 +51,47 @@
       </version>
     </versions>
   </app>
+<app keywords="led,starter,rt-labs,mtb-flow" req_capabilities_v2="hal led [xmc7000] [flash_8384k,flash_2048k,flash_1024k]">
+    <name>EtherCAT master stack</name>
+    <id>mtb-example-soem</id>
+    <category>Industrial Communication</category>
+    <uri>https://github.com/rtlabs-com/mtb-example-soem</uri>
+    <description><![CDATA[
+        <b>SOEM Master Example Application</b>
+        <br>
+        This application demonstrates how to implement Industrial Ethernet connectivity using the
+        SOEM middleware.
+        <br><br>
+        It includes reference examples for generic use as well as a dedicated example for operating
+        towards an Infineon XMC4800 slave board running a demo image (supplied).
+        <br><br>
+
+        <b>RT-Labs SOEM Middleware</b> enables Industrial Ethernet connectivity for Infineon
+        microcontrollers using EtherCAT. Key features include:
+        <ul>
+            <li>EtherCAT master for cyclic I/O and motion devices</li>
+            <li>Lightweight, portable C code</li>
+            <li>Bus scan, topology validation, and SII (slave EEPROM) access</li>
+            <li>CoE support (SDO/OD access) and PDO mapping</li>
+            <li>Distributed Clocks (DC) synchronization for precise cycle timing</li>
+            <li>Simple API for state transitions and process data exchange</li>
+            <li>Reference examples and diagnostics utilities</li>
+            <li><a href="https://github.com/rtlabs-com/mtb-example-soem/">SOEM Example</a> SOEM Example Application on GitHub</li>
+            <li><a href="https://github.com/rtlabs-com/mtb-mw-soem/">SOEM Middleware</a> SOEM Middleware on GitHub<</li>
+            <li><a href="https://rt-labs.com/product/soem/">SOEM</a> General introduction to SOEM concepts and features</li>
+        </ul>
+        <br>
+]]></description>
+    <req_capabilities>hal led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>Latest 0.X release</num>
+        <commit>latest-v0.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>Release 0.6.0</num>
+        <commit>release-v0.6.0</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
