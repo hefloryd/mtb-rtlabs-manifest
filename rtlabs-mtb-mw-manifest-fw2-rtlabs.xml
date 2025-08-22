@@ -29,7 +29,7 @@
       </version>
     </versions>
   </middleware>
- <middleware>
+  <middleware>
     <name>rtlabs-soem-lib</name>
     <id>rtlabs-soem-lib</id>
     <uri>https://github.com/rtlabs-com/mtb-mw-soem</uri>
