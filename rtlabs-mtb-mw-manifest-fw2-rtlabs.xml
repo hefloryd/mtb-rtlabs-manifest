@@ -2,7 +2,7 @@
   <middleware>
     <name>rtlabs-uphy-lib</name>
     <id>rtlabs-uphy-lib</id>
-    <uri>https://github.com/rtlabs-com/mtb-mw-uphy</uri>
+    <uri>https://github.com/hefloryd/mtb-mw-uphy</uri>
     <desc>RT-Labs UPHY libraries</desc>
     <category>Peripheral</category>
     <req_capabilities>mcu_gp hal</req_capabilities>

@@ -3,7 +3,7 @@
     <name>Industrial Ethernet</name>
     <id>mtb-example-uphy</id>
     <category>Industrial Communication</category>
-    <uri>https://github.com/rtlabs-com/mtb-example-uphy</uri>
+    <uri>https://github.com/hefloryd/mtb-example-uphy</uri>
     <description><![CDATA[
         <b>U-Phy Device Application</b>
         <br>
